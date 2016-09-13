@@ -1,0 +1,1135 @@
+//Global
+.no-gutter
+  padding-left: 0
+  padding-right: 0
+
+.stylized
+  font-family: 'Dancing-Script-Regular','sans-serif'
+
+#cover
+  position: relative
+  background-image: url('/img/asset/cover-bg.jpg')
+  background-attachment: fixed
+  background-size: cover
+  background-position: center center
+  height: 100vh
+  .container-fluid
+    height: inherit
+    .bg-overlay
+      position: absolute
+      width: 100%
+      height: 100%
+      background-color: rgba(0,0,0,0.5)
+    .intro-container
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      margin-left: auto
+      margin-right: auto
+      .intro-image
+        .cover-image
+          max-width: 90%
+          height: auto
+          display: block
+          margin-left: auto
+          margin-right: auto
+    .mouse-scroll-container
+      position: relative
+      margin: 30px auto
+      .mouse
+        display: block
+        margin-left: auto
+        margin-right: auto
+        width: 28px
+        height: 44px
+        border-radius: 12px
+        border: 2px solid #ffffff
+        text-align: center
+        &:after
+          display: inline-block
+          height: 8px
+          width: 8px
+          background-color: #ffffff
+          border-radius: 50%
+          content: ""
+          animation: scroll 1.3s ease-out infinite forwards
+      .caption
+        margin-top: 10px
+        text-transform: uppercase
+        text-align: center
+        color: white
+        font-family: "Montserrat"
+
+@keyframes scroll
+  0%
+    transform: translateY(0)
+    -moz-transform: translateY(0)
+    -o-transform: translateY(0)
+    -ms-transform: translateY(0)
+  50%
+    transform: translateY(10px)
+    -moz-transform: translateY(10px)
+    -o-transform: translateY(10px)
+    -ms-transform: translateY(10px)
+  100%
+    transform: translateY(0)
+    -moz-transform: translateY(0)
+    -o-transform: translateY(0)
+    -ms-transform: translateY(0)
+
+#ceremony
+  position: relative
+  .border-event-top
+    padding-top: 40px
+    img
+      width: 200px
+      margin: 0 auto 40px
+    h4
+      text-align: center
+      text-transform: uppercase
+      color: #777
+      font-family: Montserrat
+    h3
+      color: #777
+      font-weight: 300
+      letter-spacing: 3px
+      text-transform: uppercase
+      padding: 0
+      text-align: center
+      margin: 0
+    h1
+      text-transform: uppercase
+      font-weight: 300
+      text-indent: 40px
+      margin: 20px 0 40px 0
+      letter-spacing: 3px
+      font-size: 2em
+      text-align: center
+
+    .center-border
+      border-left: 1px dashed #ddd
+      height: 100%
+      margin: 15px 0
+
+  .section-quotes
+    .share-event
+      font-size: 2.8em
+      font-family: 'Dancing-Script-Regular'
+      margin-bottom: 30px
+      border-top: 1px dashed #ddd
+      border-bottom: 1px dashed #ddd
+      text-align: center
+      color: #777
+      letter-spacing: 0
+      font-weight: bold
+      padding: 50px 20px
+      word-spacing: 5px
+
+  .couple-info-section
+    border-bottom: 1px dashed #ddd
+    .common-border
+      border-right: 1px dashed #ddd
+      height: 100%
+      .bride-section
+        color: #777
+        margin: 15px 0 70px
+        img
+          width: 200px
+          margin: 0 auto 40px auto
+        h4
+          font-family: 'Montserrat'
+          text-transform: uppercase
+          letter-spacing: 0px
+          font-weight: normal
+          font-style: normal
+        h1
+          margin: 20px 0
+          text-transform: uppercase
+          font-size: 2em
+          text-align: center
+          font-weight: 300
+          letter-spacing: 3px
+        p
+          padding: 5px 20% 0 20%
+          font-size: 14px
+          line-height: 1.7em
+          font-weight: normal
+    .groom-section
+      color: #777
+      margin: 15px 0 70px
+      img
+        width: 200px
+        margin: 0 auto 40px auto
+      h4
+        font-family: 'Montserrat'
+        text-transform: uppercase
+        letter-spacing: 0px
+        font-weight: normal
+        font-style: normal
+      h1
+        margin: 20px 0
+        text-transform: uppercase
+        font-size: 2em
+        text-align: center
+        font-weight: 300
+        letter-spacing: 3px
+      p
+        padding: 5px 20% 0 20%
+        font-size: 14px
+        line-height: 1.7em
+        font-weight: normal
+
+  .center-icon
+    height: 100px
+    width: 100px
+    display: block
+    margin: 0 auto 0 auto
+    text-align: center
+    background-color: #006D44
+    color: #fff
+    border-radius: 50%
+    z-index: 8
+    position: relative
+    line-height: 100px
+    top: -50px
+    box-shadow: 0 0 0 5px #27ae60, inset 0 0px 0 rgba(0, 0, 0, 0.08), 0 0px 11px 7px rgba(0, 0, 0, 0.07)
+    .church-image
+      text-align: center
+      height: 35px
+
+  .venue-container
+    margin: -70px 0 70px 0
+    .center-border
+      border-left: 1px dashed #ddd
+    .venue
+      text-align: center
+      h2
+        font-family: 'Montserrat'
+        text-transform: uppercase
+        font-size: 1.3em
+        color: #3E3D39
+        padding: 0 0 15px 20px
+        text-align: center
+        letter-spacing: 3px
+        font-weight: 400
+      ul
+        list-style: none
+        padding-left: 0
+        li
+          font-weight: normal
+          color: #777
+          list-style: none
+          font-size: 14px
+          text-transform: uppercase
+          padding: 5px 0
+          width: 100%
+          text-align: center
+#countdown
+  background-image: url("/img/asset/countdown-bg.jpg")
+  background-attachment: fixed
+  background-size: cover
+  background-position: center
+  .countdown-container
+    margin: 70px auto
+    padding: 30px 0
+    background-color: #ffffff
+    .section-header
+      color: #3E3D39
+      font-family: 'Montserrat'
+      text-transform: uppercase
+      font-weight: normal
+      font-style: normal
+      font-size: 2em
+      margin-bottom: 20px
+      position: relative
+      &:before
+        margin: 0 auto
+        text-align: center
+        content: ""
+        height: 2px
+        width: 200px
+        display: block
+        position: relative
+        bottom: -70px
+        background-color: #ddd
+    #clock
+      .item-list
+        margin: 30px 0
+        .item-container
+          position: relative
+          .countdown-name
+            display: block
+            text-align: center
+            margin: 15px 0
+          .countdown-value
+            position: relative
+            display: block
+            text-align: center
+            width: 50px
+            height: 50px
+            margin-left: auto
+            margin-right: auto
+            border: 1px solid #a4a4a4
+            padding: 65px
+            border-radius: 50%
+            .countdown-number
+              position: absolute
+              top: 50%
+              left: 0
+              right: 0
+              transform: translateY(-50%)
+              -webkit-transform: translateY(-50%)
+              -moz-transform: translateY(-50%)
+              -ms-transform: translateY(-50%)
+              -o-transform: translateY(-50%)
+              font-size: 20px
+#ourstory
+  .header
+    height: 150px
+    width: 150px
+    border-radius: 50%
+    color: white
+    margin: 0 auto
+    border: 8px double #777
+    position: relative
+    top: 70px
+    z-index: 0
+    background-color: #fff
+    img
+      font-size: 2.5em
+      text-align: center
+      line-height: 65px
+      color: #777
+      border: 2px dotted #777
+      height: 110px
+      border-radius: 50%
+      display: block
+      margin: 0 auto
+      position: relative
+      top: 12px
+      padding: 20px
+  .ribbon
+    background: #777
+    position: relative
+    height: 50px
+    margin: 0 auto
+    padding: 0 45px
+    min-width: 200px
+    display: table
+    &:before
+      left: -25px
+      content: ''
+      position: absolute
+      height: 0
+      border: 25px solid transparent
+      top: 0
+      width: 0
+      border-top-color: #777
+      border-bottom-color: #777
+      z-index: -1
+    span
+      font-size: 2em
+      line-height: 50px
+      text-transform: uppercase
+      font-family: "Montserrat", "sans-serif"
+      font-weight: bold
+      width: 100%
+      color: #fff
+      &:before
+        content: ""
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        display: block
+        position: absolute
+        background: #fff
+        font-size: 20px
+        top: 20px
+        left: 10px
+      &:after
+        content: ""
+        width: 10px
+        height: 10px
+        border-radius: 50%
+        display: block
+        position: absolute
+        background: #fff
+        font-size: 20px
+        top: 20px
+        right: 10px
+    &:after
+      right: -25px
+      content: ''
+      position: absolute
+      height: 0
+      border: 25px solid transparent
+      top: 0
+      width: 0
+      border-top-color: #777
+      border-bottom-color: #777
+      z-index: -1
+  .quote-ribbon
+    font-size: 14px
+    margin: 20px 0 70px 0
+    color: #999
+    position: relative
+    top: 20px
+    font-weight: bold
+    text-transform: uppercase
+    letter-spacing: 5px
+    &:before
+      top: -6px
+      left: -20px
+      content: ""
+      text-rendering: auto
+      width: 130px
+      height: 1px
+      background-color: #ddd
+      position: relative
+      display: inline-block
+    &:after
+      top: -6px
+      right: -20px
+      content: ""
+      text-rendering: auto
+      width: 130px
+      height: 1px
+      background-color: #ddd
+      position: relative
+      display: inline-block
+
+  .timeline-section
+    position: relative
+    top: -40px
+    &:before
+      content: ''
+      position: absolute
+      top: 15px
+      height: 100%
+      width: 4px
+      background: #fff!important
+      border-right: 1px dashed #ccc
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+    .timeline-block
+      position: relative
+      margin: 70px auto
+      .timeline-img
+        position: absolute
+        box-shadow: 0 0 0 7px white, inset 0 0px 0 rgba(0, 0, 0, 0.08), 0 0 0px 8px #ddd
+        width: 200px
+        height: 200px
+        left: 50%
+        top: 40px
+        margin-left: -100px
+        border-radius: 50%
+        img
+          display: block
+          width: 100%
+          height: 100%
+          position: relative
+          border-radius: 50%
+      .timeline-content
+        position: relative
+        background: #fff
+        border-radius: 0.25em
+        color: #777
+        padding: 20px 40px
+        width: 39%
+        margin-left: 0
+        h2
+          font-family: "Montserrat","sans-serif"
+          text-transform: uppercase
+          letter-spacing: 0px
+          color: #3E3D39
+          font-size: 1.3em
+          font-weight: normal
+          font-style: normal
+        h3
+          font-weight: normal
+          color: #878787
+          font-size: 13px
+          margin: 15px -40px 0 -40px
+          text-transform: uppercase
+          padding: 0px 40px
+        p
+          font-size: 14px
+          font-weight: normal
+          margin: 1em 0
+          line-height: 1.7em
+    .circle-shape
+      background: #006D44
+      box-shadow: 0 0 0 8px white
+      width: 150px
+      height: 150px
+      position: relative
+      top: 40px
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      border-radius: 50%
+      h2
+        font-family: "Montserrat", "sans-serif"
+        text-transform: uppercase
+        letter-spacing: 0px
+        font-weight: normal
+        font-style: normal
+        text-align: center
+        color: white
+        font-size: 1.3em
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+    &:after
+      content: ''
+      display: table
+      clear: both
+
+#people
+  .section-header
+    margin: 75px 0
+    text-align: center
+    font-size: 2em
+    color: #888
+    font-family: "Montserrat", "sans-serif"
+    text-transform: uppercase
+    letter-spacing: 0px
+    font-weight: normal
+    font-style: normal
+    &:before
+      margin: 0 auto
+      text-align: center
+      content: ""
+      height: 2px
+      width: 300px
+      display: block
+      position: relative
+      bottom: -50px
+      background-color: #ddd
+  .common-border
+    height: 100%
+    padding-top: 15px
+    padding-bottom: 15px
+    border-right: 1px dashed #ddd
+    border-top: 1px dashed #ddd
+    .content-header
+      font-family: "Montserrat"
+      text-transform: uppercase
+      font-weight: normal
+      font-style: normal
+      text-align: center
+      font-size: 1.2em
+      color: #666
+      margin: 30px 15px
+      padding: 0
+      border-radius: 0
+      letter-spacing: 3px
+    .testimonial
+      margin-top: 20px
+      margin-bottom: 20px
+      position: relative
+      .content-container
+        margin: 0px 0 25px
+        .content-image
+          width: 120px
+          height: 120px
+          border-radius: 50%
+        .content-name
+          word-wrap: break-word
+          display: block
+          text-align: center
+          font-size: 13px
+          text-transform: uppercase
+          margin: 15px 0 0
+          color: #777
+
+#venue
+  .section-header
+    margin: 75px 0
+    text-align: center
+    font-size: 2em
+    color: #888
+    font-family: "Montserrat", "sans-serif"
+    text-transform: uppercase
+    letter-spacing: 0px
+    font-weight: normal
+    font-style: normal
+    &:before
+      margin: 0 auto
+      text-align: center
+      content: ""
+      height: 2px
+      width: 300px
+      display: block
+      position: relative
+      bottom: -50px
+      background-color: #ddd
+  #map
+    height: 400px
+
+  #venue-image-container
+    padding-top: 50px
+    padding-bottom: 50px
+    .venue-image
+      background-size: cover
+      background-position: center
+      background-repeat: no-repeat
+    .venue-large
+      height: 610px
+    .venue-small
+      height: 200px
+      .text-content
+        width: fit-content
+        margin: 0 auto
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        color: white
+        .venue-header
+          font-family: "Montserrat", "sans-serif"
+          text-transform: uppercase
+          letter-spacing: 0px
+          margin: 0 auto
+          padding: 5px 0
+          font-size: 1.3em
+          font-weight: normal
+          font-style: normal
+
+    .padding-large
+      margin: 0 5px
+    .padding-small
+      padding: 0
+      margin-bottom: 5px
+
+#video
+  position: relative
+  height: 700px
+  .content-container
+    height: inherit
+    position: relative
+    #video-bg
+      transition: background-image 500ms ease-in-out
+      background-position: center center
+      background-repeat: no-repeat
+      background-size: cover
+      height: inherit
+      .video-overlay
+        position: absolute
+        background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7))
+        height: 100%
+        width: 100%
+        z-index: 1
+      .video-content-container
+        width: 100%
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        z-index: 5
+        .video-button
+          cursor: pointer
+          left: 0
+          right: 0
+          height: 100px
+        .caption
+          .caption-text
+            color: white
+            letter-spacing: 2px
+            text-align: center
+    #iframe-video
+      background-color: black
+      height: inherit
+      display: none
+      iframe
+        height: inherit
+
+.modal.fade
+  .modal-dialog
+    position: absolute
+    top: 40%
+    left: 0
+    right: 0
+    opacity: 0
+    -webkit-transform: translateY(-40%)
+    -ms-transform: translateY(-40%)
+    -o-transform: translateY(-40%)
+    transform: translateY(-40%)
+    -webkit-transition: all 0.3s ease
+    -moz-transition: all 0.3s ease
+    -o-transition: all 0.3s ease
+    transition: all 0.3s ease
+  &.in
+    background-color: rgba(0,0,0,0.7)
+    .modal-dialog
+      min-width: 50%
+      max-width: 50%
+      margin-top: 0
+      margin-bottom: 0
+      position: absolute
+      top: 40%
+      opacity: 1
+      -webkit-transform: translateY(-40%)
+      -ms-transform: translateY(-40%)
+      -o-transform: translateY(-40%)
+      transform: translateY(-40%)
+
+/* DIALOG CONTENT
+.modal-content
+  border: none
+  border-radius: 2px
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  box-shadow: none
+  padding: 0
+  background-color: transparent
+  .close
+    position: absolute
+    width: 35px
+    height: 35px
+    background-color: #000
+    opacity: 1
+    color: #ffffff
+    z-index: 999
+    right: -5px
+    top: -5px
+    border-radius: 50%
+    font-size: 24px
+    border: 2px solid #fff
+    line-height: 34px
+    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.35)
+    box-shadow: none
+    text-shadow: none
+    &:focus
+      outline: none
+    &:hover
+      opacity: 1
+      color: #ffffff
+  .text-alert
+    margin: 20px auto
+    color: white
+    text-align: center
+
+#instagram
+  position: relative
+  .container
+    max-width: 970px
+    .section-header
+      margin: 75px 0
+      text-align: center
+      font-size: 2em
+      color: #888
+      font-family: "Montserrat", "sans-serif"
+      text-transform: uppercase
+      letter-spacing: 0px
+      font-weight: normal
+      font-style: normal
+      &:before
+        margin: 0 auto
+        text-align: center
+        content: ""
+        height: 2px
+        width: 300px
+        display: block
+        position: relative
+        bottom: -50px
+        background-color: #ddd
+    #instafeed
+      margin-bottom: 30px
+      .placeholder
+        padding: 5px
+        .image-link
+          display: block
+          img
+            display: block
+            max-width: 100%
+            height: auto
+            margin: auto
+
+#our-gallery
+  .container
+    margin-bottom: 30px
+    .section-header
+      margin: 75px 0
+      text-align: center
+      font-size: 2em
+      color: #888
+      font-family: "Montserrat", "sans-serif"
+      text-transform: uppercase
+      letter-spacing: 0px
+      font-weight: normal
+      font-style: normal
+      &:before
+        margin: 0 auto
+        text-align: center
+        content: ""
+        height: 2px
+        width: 300px
+        display: block
+        position: relative
+        bottom: -50px
+        background-color: #ddd
+    #gallery-container
+      margin-bottom: 30px
+      .placeholder
+        padding: 5px
+        overflow: hidden
+        .image-link
+          position: relative
+          display: block
+          cursor: pointer
+          overflow: hidden
+          &.is-loading
+            height: 350px
+            background: url("/img/loading.gif") center no-repeat transparent
+            background-color: #f7f7f7
+            .content-image
+              display: none
+          &.done-loading
+            height: 350px
+            &:after
+              content: "\e003"
+              font-family: 'Glyphicons Halflings'
+              opacity: 0
+              background-color: rgba(0, 0, 0, 0.75)
+              position: absolute
+              right: 0
+              left: 0
+              top: 0
+              margin-left: auto
+              margin-right: auto
+              bottom: 0
+              text-align: center
+              line-height: 350px
+              font-size: 30px
+              color: #fff
+              -webkit-transition: all 0.5s ease-in-out 0s
+              -moz-transition: all 0.5s ease-in-out 0s
+              transition: all 0.5s ease-in-out 0s
+            &:hover:after
+              opacity: 1
+            .content-image
+              object-fit: cover
+              display: block
+              width: 100%
+              height: 100%
+              margin: auto
+    .view-more-link
+      text-decoration: none
+      display: inline-block
+      color: white
+      padding: 25px 50px
+      margin-left: auto
+      margin-right: auto
+      background-color: #006D44
+      transition: background-color 300ms ease-in-out
+      -webkit-transition: background-color 300ms ease-in-out
+      -moz-transition: background-color 300ms ease-in-out
+      -o-transition: background-color 300ms ease-in-out
+      -ms-transition: background-color 300ms ease-in-out
+      max-width: 190px
+      &:hover,&:focus,&:active
+        background-color: #2ecc71
+
+#supplier
+  background-color: #f7f7f7
+  .section-header
+    margin: 75px 0
+    text-align: center
+    font-size: 2em
+    color: #888
+    font-family: "Montserrat", "sans-serif"
+    text-transform: uppercase
+    letter-spacing: 0px
+    font-weight: normal
+    font-style: normal
+    &:before
+      margin: 0 auto
+      text-align: center
+      content: ""
+      height: 2px
+      width: 300px
+      display: block
+      position: relative
+      bottom: -50px
+      background-color: #ddd
+  .content-container
+    .image-container
+      margin: 15px auto
+      .content-image
+        height: 200px
+    .caption
+      height: 100px
+      .caption-name
+        display: block
+        text-align: center
+        text-transform: uppercase
+        font-family: "Gotham-Medium", "sans-serif"
+        font-weight: bold
+        font-size: 14px
+        margin: 5px 0
+        letter-spacing: 2px
+      .caption-product
+        display: block
+        text-align: center
+
+@media (max-width: 1440px)
+  #cover
+    .container-fluid
+      .intro-container
+        .intro-image
+          .cover-image
+            max-width: 40%
+            min-width: 40%
+  #video
+    height: 600px
+
+  .modal.fade.in
+    .modal-dialog
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      max-width: 90%
+      min-width: 70%
+
+@media (max-width: $screen-md-max)
+  #our-gallery
+    .container
+      #gallery-container
+        .placeholder
+          .image-link
+            &.is-loading
+              height: 300px
+  #people
+    .common-border
+      .testimonial
+        .content-container
+          .content-image
+            width: 120px
+            height: 120px
+          .content-name
+            font-size: 12px
+
+  #ceremony
+    .couple-info-section
+      .common-border
+        .bride-section
+          p
+            padding-left: 20px
+            padding-right: 20px
+      .groom-section
+        p
+          padding-left: 20px
+          padding-right: 20px
+  #video
+    height: 500px
+
+
+@media (max-width: $screen-sm-max)
+  #cover
+    .container-fluid
+      .intro-container
+        .intro-image
+          .cover-image
+            max-width: 90%
+            height: auto
+  #countdown
+    background-image: none
+    .countdown-container
+      margin: 0
+
+  #ceremony
+    .couple-info-section
+      .groom-section
+        margin-bottom: 120px
+    .venue-container
+      margin-top: 0
+      margin-bottom: 80px
+      .venue
+        h2
+          padding-left: 0
+  #ourstory
+    .timeline-section
+      &:before
+        display: none
+      .timeline-block
+        .timeline-img
+          position: relative
+          display: table
+          margin: 0 auto
+          top: 0
+          left: 0
+          right: 0
+        .timeline-content
+          text-align: center
+          width: 90%
+          margin: 0 auto
+          float: none !important
+
+  #our-gallery
+    .container
+      #gallery-container
+        .placeholder
+          .image-link
+            &.is-loading
+              height: 243px
+            &.done-loading
+              height: auto
+              &:after
+                display: none
+
+@media (max-width: 800px) and (orientation: landscape)
+  #cover
+    .container-fluid
+      .intro-container
+        .intro-image
+          .cover-image
+            max-width: 50%
+
+@media (max-width: $screen-xs-max)
+  #ceremony
+    .venue-container
+      .venue
+        padding: 10px 0
+
+  #ourstory
+    .quote-ribbon
+      &:before
+        left: 0
+      &:after
+        right: 0
+
+  #venue
+    #venue-image-container
+      .venue-large
+        margin: 5px 0 0
+        height: 350px
+      .venue-small
+        margin: 5px 0
+
+  #supplier
+    .content-container
+      margin-top: 30px
+      margin-bottom: 30px
+      .caption
+        height: auto
+
+@media (max-width: 568px)
+  #cover
+    height: auto
+    .container-fluid
+      .intro-container
+        top: 0
+        transform: none
+        padding: 190px 0 100px
+      .mouse-scroll-container
+        .caption
+          font-size: 12px
+
+  #countdown
+    .countdown-container
+      .section-header
+        font-size: 1.3em
+
+  #ceremony
+    .border-event-top
+      h2
+        padding-left: 0
+      h1
+        text-indent: 0
+        span
+          border-top: none
+    .section-quotes
+      .share-event
+        font-size: 1.5em
+
+  #ourstory
+    .ribbon
+      padding: 0 25px
+    .quote-ribbon
+      font-size: 12px
+      margin: 20px 0 30px 0
+      &:before
+        width: 290px
+      &:after
+        width: 290px
+    .timeline-section
+      .timeline-block
+        .timeline-content
+          width: 100%
+          padding: 20px
+
+  #people
+    .common-border
+      .testimonial
+        .content-container
+          .content-image
+            height: 100px
+            width: 100px
+
+  #our-gallery
+    .container
+      .section-header
+        margin: 0 0 50px
+      #gallery-container
+        .placeholder
+          padding: 0
+          width: 100%
+          .image-link
+            &.is-loading
+              height: 210px
+  #video
+    height: 400px
+
+  footer
+    h4
+      font-size: 14px
+    h5
+      font-size: 12px
+
+@media (max-width: 568px) and (orientation: landscape)
+  #cover
+    height: auto
+    .container-fluid
+      .intro-container
+        top: 0
+        transform: none
+        padding: 150px 0 100px
+  #our-gallery
+    .container
+      #gallery-container
+        .placeholder
+          padding: 2px
+  footer
+    h4
+      font-size: 14px
+    h5
+      font-size: 12px
+
+@media (max-width: 568px) and (orientation: landscape)
+  #cover
+    height: auto
+    .container-fluid
+      .intro-container
+        top: 0
+        transform: none
+        padding: 150px 0 100px
+  #video
+    height: 200px
+
+
+
+
+
+
+
