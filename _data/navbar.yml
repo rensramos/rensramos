@@ -1,0 +1,15 @@
+- name: What's New
+  url: whatsnew
+
+
+- name: Products
+  url: products
+
+
+- name: About
+  url: about
+
+- name: Stores
+  url: store
+
+
