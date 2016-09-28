@@ -18,19 +18,18 @@ collections:
     permalink: /product/:path/
 
 project-filter:
-  - id: 1
-    name: Web Dev
+  - name: All
+    filter: "all"
+    
+  - name: Web Dev
     filter: ".web-dev"
 
-  - id: 2
-    name: Web Design
+  - name: Web Design
     filter: ".web-design"
 
-  - id: 3
-    name: Graphic
+  - name: Graphic
     filter: ".graphic"
 
-  - id: 4
-    name: Typography
+  - name: Typography
     filter: ".typography"
 
