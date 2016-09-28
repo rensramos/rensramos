@@ -5,3 +5,146 @@
   background-size: cover
   background-position: top center
   background-repeat: no-repeat
+  .section-container
+    height: inherit
+    .intro-content-container
+      position: relative
+      top: 50%
+      transform: translateY(-50%)
+      -moz-transform: translateY(-50%)
+      -o-transform: translateY(-50%)
+      -ms-transform: translateY(-50%)
+      .intro-header-top
+        text-align: center
+        display: block
+        color: #fdd835
+        font-size: 70px
+        font-weight: bold
+      .type-container
+        min-height: 99px
+        display: table
+        margin-left: auto
+        margin-right: auto
+        .intro-header-middle
+          display: inline
+          color: #ffffff
+          font-size: 70px
+        .typed-cursor
+          display: inline
+          color: white
+          font-size: 70px
+          opacity: 1
+          -webkit-animation: blink 0.7s infinite
+          -moz-animation: blink 0.7s infinite
+          animation: blink 0.7s infinite
+      .intro-header-bottom
+        text-align: center
+        display: block
+        color: white
+        font-size: 16px
+        font-weight: bold
+        letter-spacing: 15px
+        margin-top: 15px
+      .mouse-scroll
+        display: table
+        margin-left: auto
+        margin-right: auto
+        margin-top: 50px
+        .mouse
+          display: inline-block
+          height: 44px
+          width: 28px
+          border-radius: 12px
+          border: 2px solid #BEBCBC
+          text-align: center
+          &:after
+            display: inline-block
+            height: 8px
+            width: 8px
+            background-color: #BEBCBC
+            border-radius: 50%
+            content: ""
+            -webkit-animation: scroll 1.3s ease-out infinite forwards
+            -moz-animation: scroll 1.3s ease-out infinite forwards
+            animation: scroll 1.3s ease-out infinite forwards
+
+
+
+//Keyframes Animation
+//typejs
+@keyframes blink
+  0%
+    opacity: 1
+
+  50%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-webkit-keyframes blink
+  0%
+    opacity: 1
+
+  50%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+
+@-moz-keyframes blink
+  0%
+    opacity: 1
+
+  50%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+//Mouse Scroll
+@-webkit-keyframes scroll
+  0%
+    -webkit-transform: translateY(0)
+
+  50%
+    -webkit-transform: translateY(10px)
+
+  100%
+    -webkit-transform: translateY(0)
+
+
+@-moz-keyframes scroll
+  0%
+    -moz-transform: translateY(0)
+
+  50%
+    -moz-transform: translateY(10px)
+
+  100%
+    -moz-transform: translateY(0)
+
+
+@keyframes scroll
+  0%
+    -webkit-transform: translateY(0)
+    -moz-transform: translateY(0)
+    -ms-transform: translateY(0)
+    -o-transform: translateY(0)
+    transform: translateY(0)
+
+  50%
+    -webkit-transform: translateY(10px)
+    -moz-transform: translateY(10px)
+    -ms-transform: translateY(10px)
+    -o-transform: translateY(10px)
+    transform: translateY(10px)
+
+  100%
+    -webkit-transform: translateY(0)
+    -moz-transform: translateY(0)
+    -ms-transform: translateY(0)
+    -o-transform: translateY(0)
+    transform: translateY(0)
