@@ -1,0 +1,14 @@
+- id: 1
+  name: Kata
+  image: "dummy.png"
+  position: "Illustrator"
+  company: "Doesthatcomewithfries"
+  testimonial: "He's an efficient and reliable guy that will do everything in his power to find solutions to your problems."
+
+
+- id: 2
+  name: Nicole
+  image: "dummy.png"
+  position: "UI/UX Designer"
+  company: "Crux Design Studio"
+  testimonial: "A great front-end developer that works harmoniously with designers. He is very knowledgable with Jekyll and he makes websites almost pixel perfect to the design."

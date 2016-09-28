@@ -94,7 +94,6 @@
             margin-left: auto
             margin-right: auto
             text-align: center
-
       .right-section
         .section-image
           min-height: 225px
@@ -137,12 +136,14 @@
         margin-right: 30px
         &.active, &:hover
           border-bottom: 4px solid #555555
-  .project-container
+  #project-container
     position: relative
-    min-height: 50vh
     .section-url
       height: 439px
+      text-decoration: none
+      display: none
       .project-item
+        width: 100%
         position: relative
         background-size: cover
         background-position: center center
@@ -162,6 +163,7 @@
           -ms-transform: translateY(-50%)
           .section-title
             font-size: 24px
+            letter-spacing: 2px
             display: block
             color: #ffffff
             text-align: center
@@ -179,6 +181,59 @@
             color: #ffffff
             text-align: center
             text-transform: uppercase
+
+#testimonial
+  position: relative
+  height: 50vh
+  background-color: #f5f5f5
+  .section-container
+    max-width: 750px
+    .section-content
+      padding-top: 100px
+      padding-bottom: 100px
+      .carousel-container
+        #testimonial-carousel
+          min-height: 250px
+          .carousel-inner
+            .item
+              .testimonial-content
+                .caption
+                  color: #555555
+                  .open-quote
+                    display: block
+                    font-size: 18px
+                  .close-quote
+                    display: block
+                    float: right
+                    font-size: 18px
+                  .content-testimonial
+                    display: block
+                    font-family: "Georgia-Itatlic","sans-serif"
+                    font-style: italic
+                    font-size: 22px
+                    text-align: center
+                    line-height: 30px
+                    max-width: 90%
+                    margin-left: auto
+                    margin-right: auto
+                .content-info
+                  margin-top: 30px
+                  display: table
+                  margin-left: auto
+                  margin-right: auto
+                  .people-image
+                    .image
+                  .people-info
+                    .people-name
+                      text-transform: uppercase
+                      display: block
+                      font-weight: bold
+                    .people-role
+                      color: #777777
+                      padding: 21px 15px
+                      display: inline-block
+                      white-space: nowrap
+
 
 
 

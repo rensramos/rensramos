@@ -3,19 +3,17 @@
         <div class="container no-gutter">
             <fieldset class="filter-group">
                 {% for filter in site.project-filter %}
-                {% assign counter = counter | plus: 1%}
-                <button {% if counter == 1 %} class="filter active" {% else %} class="filter" {% endif %} data-filter=".{{ filter.filter }}">{{ filter.name }}
-                </button>
+                <button class="filter" data-filter="{{ filter.filter }}">{{ filter.name }}</button>
                 {% endfor %}
             </fieldset>
         </div>
     </div>
 
-    <div class="project-container">
-        {% assign sorted-project = site.work | sort: "rank" %}
+    <div id="project-container">
+        {% assign sorted-project = site.work %}
         {% for project in sorted-project %}
-        <a class="section-url" href="{{ project.link }}">
-            <div class="mix col-md-4 project-item no-gutter" style="background-image: url('/image/work/{{ project.image }}');">
+        <a class="mix section-url col-md-4 {{ project.type }} no-gutter" data-rank="{{ project.rank }}" href="{{ project.link }}">
+            <div class="project-item" style="background-image: url('/image/work/{{ project.image }}');">
                 <div class="section-overlay" style="background-color: #{{ project.bg-color }}"></div>
                 <div class="caption">
                     <span class="section-title">{{ project.title }}</span>

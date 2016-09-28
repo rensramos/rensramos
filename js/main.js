@@ -4,6 +4,43 @@ main.init = function() {
     main.onNavbarMenuClick();
     // main.iconAnimation();
     main.onHeaderChange();
+    main.mixItUpItem();
+    // main.testimonialCarousel();
+};
+
+main.testimonialCarousel = function () {
+    ("#testimonial-carousel").carousel({
+        interval: 7000
+    });
+
+}
+
+main.mixItUpItem = function () {
+    var $container = $('#project-container');
+    $container.mixItUp({
+        controls: {
+            enable: true,
+            live: true,
+            activeClass: 'active'
+
+        },
+        load: {
+            filter: 'all',
+            sort: 'rank:asc'
+        },
+        selectors: {
+            filter: '.filter',
+            target: '.section-url'
+        },
+        callbacks:{
+            onMixEnd: function(state){
+                $('.mix').removeClass('active-item');
+                state.$show.each(function( index ) {
+                    $( this ).addClass( "active-item" );
+                });
+            }
+        }
+    });
 };
 
 main.onHeaderChange = function () {

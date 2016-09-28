@@ -1,0 +1,31 @@
+<div class="section-container container no-gutter">
+    <div class="section-content">
+        <div class="carousel-container">
+            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    {% for item in site.data.testimonial %}
+                    <div {% if forloop.first == true %} class="item active" {% else%} class="item" {% endif %}>
+                        <div class="testimonial-content col-xs-12 no-gutter">
+                            <div class="caption clearfix">
+                                <span class="open-quote fa fa-quote-left"></span>
+                                <p class="content-testimonial">{{ item.testimonial }}</p>
+                                <span class="close-quote fa fa-quote-right"></span>
+                            </div>
+                            <div class="content-info clearfix">
+                                <div class="people-image col-md-4">
+                                    <img class="image center-block" src="/image/people/{{ item.image }}"/>
+                                </div>
+                                <div class="people-info col-md-8">
+                                    <span class="people-name">{{ item.name }}</span>
+                                    <span class="people-role">{{ item.position }}, {{ item.company }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
