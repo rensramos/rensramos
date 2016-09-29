@@ -7,6 +7,12 @@
 
 
 - id: 2
+  name: Maria Chug
+  image: "dummy.png"
+  company: "Threelogy Video"
+  testimonial: "He is hard working & I was surprised that he answered all my questions immediately even if I sent them out of office hours. I don’t care much about technology so he made it easy for me to understand how I should go about using the website he developed for our company by sending me easy to understand video tutorials. "
+
+- id: 3
   name: Nicole
   image: "dummy.png"
   position: "UI/UX Designer"
