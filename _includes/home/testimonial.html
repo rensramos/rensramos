@@ -17,7 +17,11 @@
                                 </div>
                                 <div class="people-info col-md-8">
                                     <span class="people-name">{{ item.name }}</span>
+                                    {% if item.position != null %}
                                     <span class="people-role">{{ item.position }}, {{ item.company }}</span>
+                                    {% else %}
+                                    <span class="people-role">{{ item.position }}{{ item.company }}</span>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>

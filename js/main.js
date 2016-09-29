@@ -8,13 +8,6 @@ main.init = function() {
     // main.testimonialCarousel();
 };
 
-main.testimonialCarousel = function () {
-    ("#testimonial-carousel").carousel({
-        interval: 7000
-    });
-
-}
-
 main.mixItUpItem = function () {
     var $container = $('#project-container');
     $container.mixItUp({
