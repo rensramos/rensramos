@@ -86,6 +86,7 @@
             text-align: center
             margin-top: 20px
             margin-bottom: 20px
+            font-weight: bold
           .description
             color: #777777
             max-width: 80%
@@ -103,6 +104,7 @@
             text-align: center
             margin-top: 20px
             margin-bottom: 20px
+            font-weight: bold
           .description
             color: #777777
             max-width: 80%
@@ -413,9 +415,17 @@ footer
       .intro-content-container
         .type-container
           .intro-header-middle
-            font-size: 50px
+            font-size: 58px
           .typed-cursor
             font-size: 50px
+
+@media (max-width: $screen-sm-max)
+  #work-offer
+    .section-container
+      .section-content
+        .left-section
+          margin-bottom: 100px
+
 
 @media (max-width: $screen-xs-max)
   #cover
@@ -453,3 +463,18 @@ footer
         .intro-header-bottom
           font-size: 14px
           margin-top: 30px
+
+  #work-offer
+    .section-container
+      .section-content
+        .left-section
+          .section-image
+            min-height: 0
+            .image
+              max-width: 80%
+        .right-section
+          .section-image
+            min-height: 0
+            .image
+              max-width: 80%
+
