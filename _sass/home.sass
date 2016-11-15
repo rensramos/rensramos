@@ -1,7 +1,7 @@
 #cover
   height: 100vh
   width: 100%
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/image/cover-background.jpg')
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/image/cover-background.jpg')
   background-size: cover
   background-position: top center
   background-repeat: no-repeat
@@ -68,7 +68,6 @@
             -webkit-animation: scroll 1.3s ease-out infinite forwards
             -moz-animation: scroll 1.3s ease-out infinite forwards
             animation: scroll 1.3s ease-out infinite forwards
-
 
 #work-offer
   position: relative
@@ -208,7 +207,7 @@
                     font-size: 18px
                   .content-testimonial
                     display: block
-                    font-family: "Georgia-Itatlic","sans-serif"
+                    font-family: "Georgia-Itatlic", "sans-serif"
                     font-style: italic
                     font-size: 20px
                     text-align: center
@@ -221,8 +220,6 @@
                   width: 50%
                   margin-left: auto
                   margin-right: auto
-                  .people-image
-                    .image
                   .people-info
                     padding: 21px 15px
                     .people-name
@@ -323,7 +320,6 @@ footer
       margin-left: 5px
       margin-right: 5px
 
-
 //Keyframes Animation
 //typejs
 @keyframes blink
@@ -336,7 +332,6 @@ footer
   100%
     opacity: 1
 
-
 @-webkit-keyframes blink
   0%
     opacity: 1
@@ -346,7 +341,6 @@ footer
 
   100%
     opacity: 1
-
 
 @-moz-keyframes blink
   0%
@@ -369,7 +363,6 @@ footer
   100%
     -webkit-transform: translateY(0)
 
-
 @-moz-keyframes scroll
   0%
     -moz-transform: translateY(0)
@@ -379,7 +372,6 @@ footer
 
   100%
     -moz-transform: translateY(0)
-
 
 @keyframes scroll
   0%
@@ -412,6 +404,8 @@ footer
         .type-container
           .intro-header-middle
             font-size: 60px
+          .typed-cursor
+            font-size: 60px
 
 @media (max-width: $screen-md-max)
   #cover
@@ -420,3 +414,42 @@ footer
         .type-container
           .intro-header-middle
             font-size: 50px
+          .typed-cursor
+            font-size: 50px
+
+@media (max-width: $screen-xs-max)
+  #cover
+    .section-container
+      .intro-content-container
+        .intro-header-top
+          font-size: 48px
+        .type-container
+          .intro-header-middle
+            font-size: 38px
+          .typed-cursor
+            font-size: 38px
+
+@media (max-width: 568px)
+  #cover
+    height: auto
+    .section-container
+      .intro-content-container
+        padding: 170px 0
+        top: 0
+        transform: none
+        -webkit-transform: none
+        -moz-transform: none
+        -o-transform: none
+        -ms-transform: none
+        .intro-header-top
+          font-size: 38px
+        .type-container
+          min-height: 0
+          margin-top: 10px
+          .intro-header-middle
+            font-size: 22px
+          .typed-cursor
+            font-size: 22px
+        .intro-header-bottom
+          font-size: 14px
+          margin-top: 30px
