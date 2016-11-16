@@ -185,13 +185,12 @@
 
 #testimonial
   position: relative
-  height: 50vh
   background-color: #f5f5f5
   .section-container
     max-width: 750px
     .section-content
-      padding-top: 100px
-      padding-bottom: 100px
+      padding-top: 50px
+      padding-bottom: 50px
       .carousel-container
         #testimonial-carousel
           min-height: 310px
@@ -445,6 +444,26 @@ footer
           margin-left: 5px
           margin-right: 5px
 
+  #testimonial
+    .section-container
+      .section-content
+        .carousel-container
+          #testimonial-carousel
+            min-height: 390px
+            .carousel-inner
+              .item
+                .testimonial-content
+                  .content-info
+                    .people-info
+                      .people-name
+                        text-align: center
+                      .people-role
+                        display: block
+                        text-align: center
+                        white-space: normal
+
+
+
 @media (max-width: 568px)
   #cover
     height: auto
@@ -483,7 +502,6 @@ footer
             min-height: 0
             .image
               max-width: 80%
-
 
   #project
     .filter-section
@@ -533,6 +551,17 @@ footer
             .section-type
               font-size: 12px
 
+  #testimonial
+    .section-container
+      .section-content
+        .carousel-container
+          #testimonial-carousel
+            .carousel-inner
+              .item
+                .testimonial-content
+                  .caption
+                    .content-testimonial
+                      font-size: 16px
 
-        
+
 
