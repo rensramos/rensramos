@@ -1,18 +1,29 @@
 <div class="container-fluid no-gutter">
     <div class="filter-section">
         <div class="container no-gutter">
-            <fieldset class="filter-group">
+            <fieldset class="filter-group hidden-xs">
                 {% for filter in site.project-filter %}
                 <button class="filter" data-filter="{{ filter.filter }}">{{ filter.name }}</button>
                 {% endfor %}
             </fieldset>
+            <div class="dropdown hidden-lg hidden-md hidden-sm visible-xs">
+                <button class="dropdown-toggle" data-toggle="dropdown">Category Filter<span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                    {% for filter in site.project-filter %}
+                    <li class="button-item">
+                        <button class="filter" data-filter="{{ filter.filter }}">{{ filter.name }}</button>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
         </div>
     </div>
 
     <div id="project-container">
         {% assign sorted-project = site.work %}
         {% for project in sorted-project %}
-        <a class="mix section-url col-md-4 {{ project.type }} no-gutter" data-rank="{{ project.rank }}" href="{{ project.link }}">
+        <a class="mix section-url col-lg-4 col-md-4 col-sm-6 col-xs-12 {{ project.type }} no-gutter" data-rank="{{ project.rank }}" target="_blank" href="https://{{ project.link }}">
             <div class="project-item" style="background-image: url('/image/work/{{ project.image }}');">
                 <div class="section-overlay" style="background-color: #{{ project.bg-color }}"></div>
                 <div class="caption">
@@ -24,3 +35,5 @@
         {% endfor %}
     </div>
 </div>
+
+
