@@ -1,5 +1,5 @@
 ---
-rank: 4
+rank: 6
 role: "Web Dev"
 type: web-dev
 title: "FS Cosmetics"
