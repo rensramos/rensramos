@@ -11,7 +11,7 @@ $(function () {
         },
         load: {
             filter: 'all',
-            sort: 'rank:asc'
+            sort: 'rank:desc'
         },
         selectors: {
             filter: '.filter',
