@@ -4,6 +4,6 @@ role: "Graphic"
 type: graphic
 title: "Nature's Prophet"
 image: "naturesprophet.jpg"
-link: "https://www.behance.net/gallery/23766467/Nature-Prophet"
+link: "https://behance.net/gallery/23766467/Nature-Prophet"
 bg-color: "df5f58"
 ---
