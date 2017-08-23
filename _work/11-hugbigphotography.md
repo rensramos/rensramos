@@ -5,5 +5,6 @@ type: web-dev web-design
 title: "Hugbig Photography Website"
 image: "hugbigphotography.jpg"
 link: "hugbigphotography.github.io"
-bg-color: "2e3536"
+bg-color: "2aa78f"
+
 ---

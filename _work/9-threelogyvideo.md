@@ -5,5 +5,5 @@ type: web-dev
 title: "Threelogy Video"
 image: "threelogyvideo.jpg"
 link: "www.threelogyvideo.com"
-bg-color: "2aa78f"
+bg-color: "2e3536"
 ---
