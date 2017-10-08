@@ -1,6 +1,16 @@
 
+$(window).on("load",function () {
+    $('.loader').fadeOut();
 
-$(function () {
+    $(".intro-header-middle").typed({
+        strings: ["FRONT END DEVELOPER ^1000", "WEBSITE DESIGNER", "FRONT END DEVELOPER"],
+        typeSpeed: 10,
+        backDelay: 3000,
+        showCursor: true,
+        cursorChar: "|",
+        loop: false
+    });
+
     var $container = $('#project-container');
     $container.mixItUp({
         controls: {
@@ -26,29 +36,15 @@ $(function () {
             }
         }
     });
-});
 
-//Intro header type animation
-$(function () {
-    $(".intro-header-middle").typed({
-        strings: ["FRONT END DEVELOPER ^1000", "WEBSITE DESIGNER", "FRONT END DEVELOPER"],
-        typeSpeed: 10,
-        backDelay: 3000,
-        showCursor: true,
-        cursorChar: "|",
-        loop: false
-    });
-});
-
-//testimonial
-$(function () {
     $("#testimonial-carousel").carousel({
         interval: 15000
     });
+
 });
 
-//category filter dropdown animation
-$(function () {
+
+$(document).ready(function () {
     $('.dropdown').on('show.bs.dropdown', function (e) {
         $(this).find('.dropdown-menu').first().stop(true, true).slideDown(300);
     });
@@ -56,19 +52,8 @@ $(function () {
     $('.dropdown').on('hide.bs.dropdown', function (e) {
         $(this).find('.dropdown-menu').first().stop(true, true).slideUp(300);
     });
+
 });
 
-//on form sumbit
-$("#form-content").on("submit",function(){
-    $("#ss-submit").attr("disabled", true);
-    setTimeout(function(){
-        $("#ss-submit").attr("disabled", false);
-    }, 1000);
-    $("#hidden_iframe").on('load',function () {
-        $("#modal-message").modal('show');
-        $("#form-content")[0].reset();
-        setTimeout(function(){
-            $("#modal-message").modal('hide');
-        }, 2000);
-    });
-});
+
+
