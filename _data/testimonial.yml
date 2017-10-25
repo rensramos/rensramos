@@ -1,26 +1,27 @@
 - id: 1
   name: Kata
-  image: "dummy.png"
   position: "Illustrator"
   company: "Doesthatcomewithfries"
   testimonial: "He's an efficient and reliable guy that will do everything in his power to find solutions to your problems."
 
 - id: 2
   name: Maria Chug
-  image: "dummy.png"
   company: "Threelogy Video"
   testimonial: "He is hard working & I was surprised that he answered all my questions immediately even if I sent them out of office hours. I don’t care much about technology so he made it easy for me to understand how I should go about using the website he developed for our company. "
 
 
 - id: 3
   name: Chuck Chang
-  image: "dummy.png"
   company: "Mystery Manila"
   testimonial: "Awesome design by Rens! Thumbs up for his prompt fixes of prod issues!"
 
 - id: 4
   name: Nicole
-  image: "dummy.png"
   position: "UI/UX Designer"
   company: "STORM Technologies"
   testimonial: "A great front-end developer that works harmoniously with designers. He is very knowledgable with Jekyll and he makes websites almost pixel perfect to the design."
+
+- id: 5
+  name: Alyssa Orcino
+  company: "Pocket Rocket Advertising"
+  testimonial: "We couldn’t be any happier with the way our revamped company website turned out thanks to Rens. He’s very reliable and hardworking, and was willing to help in every way he can with his valuable recommendations and service. An overall incredible and top-notch web developer"
