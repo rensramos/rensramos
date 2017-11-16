@@ -4,6 +4,6 @@ role: "Web Dev"
 type: web-dev
 title: "SNAP Website"
 image: "snap.jpg"
-link: "snaboitiz.github.io"
+link: "www.snaboitiz.com/"
 bg-color: "e48228"
 ---
