@@ -12,10 +12,6 @@ sass:
 # Build settings
 markdown: kramdown
 
-collections:
-  work:
-    output: true
-    permalink: /product/:path/
 
 project-filter:
   - name: All
