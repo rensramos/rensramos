@@ -1,0 +1,119 @@
+- rank: 1
+  role: "Typography"
+  type: typography
+  title: "Father's Day"
+  image: "fathersday.jpg"
+  link: "behance.net/gallery/27322577/Fathers-day-typography"
+  bg-color: "2e3536"
+
+- rank: 2
+  role: "Graphic"
+  type: graphic
+  title: "Nature's Prophet"
+  image: "naturesprophet.jpg"
+  link: "behance.net/gallery/23766467/Nature-Prophet"
+  bg-color: "df5f58"
+
+- rank: 3
+  role: "Web Dev"
+  type: web-dev
+  title: "PHWash Resources"
+  image: "phwash.jpg"
+  link: "www.phwashresources.com"
+  bg-color: "2ba88f"
+
+- rank: 4
+  role: "WEB DEV"
+  type: web-dev
+  title: "Foxconn Builders"
+  image: "foxconn.jpg"
+  link: "www.foxconnbuilders.com"
+  bg-color: "e48228"
+
+- rank: 5
+  role: "Web Dev"
+  type: web-dev
+  title: "Fashion21 Cosmetics"
+  image: "fashion21.jpg"
+  link: "www.fashion21cosmetics.com"
+  bg-color: "2e3536"
+
+- rank: 6
+  role: "Web Dev"
+  type: web-dev
+  title: "FS Cosmetics"
+  image: "fscosmetics.jpg"
+  link: "www.fscosmetics.com"
+  bg-color: "f4a225"
+
+- rank: 7
+  role: "Web Dev"
+  type: web-dev
+  title: "Mystery Manila"
+  image: "mysterymanila.jpg"
+  link: "www.mysterymanila.com"
+  bg-color: "2e3536"
+
+- rank: 8
+  role: "Web Dev / Web Design"
+  type: web-dev web-design
+  title: "Josan & Bryan"
+  image: "wedding-website.jpg"
+  link: "josanandbryanwedding.github.io"
+  bg-color: "df5f58"
+
+- rank: 9
+  role: "Web Dev"
+  type: web-dev
+  title: "Threelogy Video"
+  image: "threelogy.jpg"
+  link: "www.threelogyvideo.com"
+  bg-color: "2e3536"
+
+- rank: 10
+  role: "Web Dev / Web Design"
+  type: web-dev web-design
+  title: "Hugbig Photography Website"
+  image: "hugbig.jpg"
+  link: "www.hugbigphotography.com/"
+  bg-color: "2aa78f"
+
+- rank: 11
+  role: "Web Dev"
+  type: web-dev
+  title: "SNAP Website"
+  image: "snap.jpg"
+  link: "www.snaboitiz.com"
+  bg-color: "e48228"
+
+- rank: 12
+  role: "Web Dev"
+  type: web-dev
+  title: "SNAP RES Website"
+  image: "snap-res.jpg"
+  link: "www.snap-res.com"
+  bg-color: "2aa78f"
+
+- rank: 13
+  role: "Web Dev / Web Design / Forms"
+  type: web-dev web-design
+  title: "AOTCA 2017"
+  image: "aotca2017.jpg"
+  link: "www.aotca2017manila.com"
+  bg-color: "f4a225"
+
+- rank: 14
+  role: "Web Dev / Forms"
+  type: web-dev
+  title: "Pocket Rocket Agency"
+  image: "pocketrocket.jpg"
+  link: "www.pocketrocketinc.com/"
+  bg-color: "df5f58"
+
+- rank: 15
+  role: "Web Dev / Web Design"
+  type: web-dev web-design
+  title: "MyPartyPix Photobooth"
+  image: "mypartypix.jpg"
+  link: "www.mypartypix.net"
+  bg-color: "2e3536"
