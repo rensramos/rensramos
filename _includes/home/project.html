@@ -21,7 +21,7 @@
     </div>
 
     <div id="project-container">
-        {% assign sorted-project = site.work %}
+        {% assign sorted-project = site.data.project %}
         {% for project in sorted-project %}
         <a href="http://{{ project.link }}" class="mix section-url col-lg-4 col-md-6 col-sm-6 col-xs-12 {{ project.type }} no-gutter" data-rank="{{ project.rank }}" target="_blank">
             <div class="project-item" style="background-image: url('https://res.cloudinary.com/rensramos/image/upload/personal-website/project/{{ project.image }}');">
