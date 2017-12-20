@@ -28,7 +28,7 @@
   title: "Foxconn Builders"
   image: "foxconn.jpg"
   link: "www.foxconnbuilders.com"
-  bg-color: "e48228"
+  bg-color: "3498db"
 
 - rank: 5
   role: "Web Dev"
@@ -68,7 +68,7 @@
   title: "Threelogy Video"
   image: "threelogy.jpg"
   link: "www.threelogyvideo.com"
-  bg-color: "2e3536"
+  bg-color: "3498db"
 
 - rank: 10
   role: "Web Dev / Web Design"
