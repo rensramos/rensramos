@@ -276,6 +276,8 @@ nav
           height: 100%
           opacity: 0.9
         .caption
+          padding-left: 15px
+          padding-right: 15px
           position: relative
           top: 50%
           transform: translateY(-50%)
@@ -533,6 +535,15 @@ footer
           .typed-cursor
             font-size: 60px
 
+  #project
+    #project-container
+      .section-url
+        height: 320px
+        .project-item
+          .caption
+            .section-type
+              font-size: 12px
+
 @media (max-width: $screen-md-max)
   #cover
     .section-container
@@ -542,6 +553,14 @@ footer
             font-size: 58px
           .typed-cursor
             font-size: 50px
+
+  #project
+    #project-container
+      .section-url
+        .project-item
+          .caption
+            .section-title
+              font-size: 22px
 
 @media (max-width: $screen-sm-max)
   #work-offer
@@ -620,6 +639,15 @@ footer
               border-bottom: 1px solid transparent
               &:hover, &.active
                 border-bottom: 1px solid #ffffff
+    #project-container
+      .section-url
+        height: 360px
+        .project-item
+          .caption
+            .section-title
+              font-size: 28px
+            .section-type
+              font-size: 16px
 
 
 
@@ -683,21 +711,27 @@ footer
               max-width: 80%
 
 
+  #project
     #project-container
       .section-url
-        height: 300px
+        height: 250px
         .project-item
           .caption
             .section-title
-              font-size: 18px
+              font-size: 20px
             .section-type
               font-size: 12px
+
+
+
+
 
   #testimonial
     .section-container
       .section-content
         .carousel-container
           #testimonial-carousel
+            min-height: 455px
             .carousel-inner
               .item
                 .testimonial-content
