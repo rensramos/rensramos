@@ -38,7 +38,7 @@ $(window).on("load",function () {
     });
 
     $("#testimonial-carousel").carousel({
-        interval: 15000
+        interval: 20000
     });
 
 });
