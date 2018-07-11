@@ -1,4 +1,11 @@
 ---
+- rank: 16
+  role: Web Dev
+  type: web-dev
+  title: Fleur Oils
+  image: fleuroils.jpg
+  link: www.fleuroils.com/
+  bg-color: 478dc9
 - rank: 1
   role: Typography
   type: typography
