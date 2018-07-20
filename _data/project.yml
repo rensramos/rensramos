@@ -1,119 +1,119 @@
-- rank: 1
+- title: "Father's Day"
+  rank: 1
   role: "Typography"
   type: typography
-  title: "Father's Day"
   image: "fathersday.jpg"
   link: "behance.net/gallery/27322577/Fathers-day-typography"
   bg-color: "13414e"
 
-- rank: 2
+- title: "Nature's Prophet"
+  rank: 2
   role: "Graphic"
   type: graphic
-  title: "Nature's Prophet"
   image: "naturesprophet.jpg"
   link: "behance.net/gallery/23766467/Nature-Prophet"
   bg-color: "00bbb0"
 
-- rank: 3
+- title: "PHWash Resources"
+  rank: 3
   role: "Web Dev"
   type: web-dev
-  title: "PHWash Resources"
   image: "phwash.jpg"
   link: "www.phwashresources.com"
   bg-color: "de4825"
 
-- rank: 4
+- title: "Foxconn Builders"
+  rank: 4
   role: "WEB DEV"
   type: web-dev
-  title: "Foxconn Builders"
   image: "foxconn.jpg"
   link: "www.foxconnbuilders.com"
   bg-color: "478dc9"
 
-- rank: 5
+- title: "Fashion21 Cosmetics"
+  rank: 5
   role: "Web Dev"
   type: web-dev
-  title: "Fashion21 Cosmetics"
   image: "fashion21.jpg"
   link: "www.fashion21cosmetics.com"
   bg-color: "13414e"
 
-- rank: 6
+- title: "FS Cosmetics"
+  rank: 6
   role: "Web Dev"
   type: web-dev
-  title: "FS Cosmetics"
   image: "fscosmetics.jpg"
   link: "www.fscosmetics.com"
   bg-color: "e84874"
 
-- rank: 7
+- title: "Mystery Manila"
+  rank: 7
   role: "Web Dev"
   type: web-dev
-  title: "Mystery Manila"
   image: "mysterymanila.jpg"
   link: "www.mysterymanila.com"
   bg-color: "13414e"
 
-- rank: 8
+- title: "Josan & Bryan"
+  rank: 8
   role: "Web Dev / Web Design"
   type: web-dev web-design
-  title: "Josan & Bryan"
   image: "wedding-website.jpg"
   link: "josanandbryanwedding.github.io"
   bg-color: "00bbb0"
 
-- rank: 9
+- title: "Threelogy Video"
+  rank: 9
   role: "Web Dev"
   type: web-dev
-  title: "Threelogy Video"
   image: "threelogy.jpg"
   link: "www.threelogyvideo.com"
   bg-color: "ba2e31"
 
-- rank: 10
+- title: "Hugbig Photography Website"
+  rank: 10
   role: "Web Dev / Web Design"
   type: web-dev web-design
-  title: "Hugbig Photography Website"
   image: "hugbig.jpg"
-  link: "www.hugbigphotography.com/"
+  link: "hugbigphotography.github.io"
   bg-color: "de4825"
 
-- rank: 11
+- title: "SNAP Website"
+  rank: 11
   role: "Web Dev"
   type: web-dev
-  title: "SNAP Website"
   image: "snap.jpg"
   link: "www.snaboitiz.com"
   bg-color: "273744"
 
-- rank: 12
+- title: "SNAP RES Website"
+  rank: 12
   role: "Web Dev"
   type: web-dev
-  title: "SNAP RES Website"
   image: "snap-res.jpg"
   link: "www.snap-res.com"
   bg-color: "de4825"
 
-- rank: 13
+- title: "AOTCA 2017"
+  rank: 13
   role: "Web Dev / Web Design / Forms"
   type: web-dev web-design
-  title: "AOTCA 2017"
   image: "aotca2017.jpg"
   link: "www.aotca2017manila.com"
   bg-color: "e84874"
 
-- rank: 14
+- title: "Pocket Rocket Agency"
+  rank: 14
   role: "Web Dev / Forms"
   type: web-dev
-  title: "Pocket Rocket Agency"
   image: "pocketrocket.jpg"
   link: "www.pocketrocketinc.com/"
   bg-color: "00bbb0"
 
-- rank: 15
+- title: "MyPartyPix Photobooth"
+  rank: 15
   role: "Web Dev / Web Design"
   type: web-dev web-design
-  title: "MyPartyPix Photobooth"
   image: "mypartypix.jpg"
   link: "www.mypartypix.net"
   bg-color: "13414e"
