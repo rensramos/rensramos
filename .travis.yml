@@ -1,0 +1,8 @@
+{
+  "os": "linux",
+  "rvm": 2.1,
+  "dist": "trusty",
+  "group": "stable",
+  "script": "bundle exec jekyll build",
+  "language": "ruby"
+}
