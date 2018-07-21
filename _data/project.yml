@@ -1,3 +1,11 @@
+---
+- title: test
+  rank: 18
+  role: Graphic
+  type: graphic
+  image: snap.jpg
+  link: test
+  bg-color: 343933
 - title: Ghost Gaming Logo
   rank: 17
   role: Graphic
@@ -5,7 +13,6 @@
   image: ghost-logo.png
   link: www.behance.net/gallery/68150123/Ghost-Gaming-logo
   bg-color: 13414e
-
 - title: Fleur Oils
   rank: 16
   role: Web Dev
@@ -13,7 +20,6 @@
   image: fleuroils.jpg
   link: www.fleuroils.com/
   bg-color: 478dc9
-
 - title: Father's Day
   rank: 1
   role: Typography
@@ -21,7 +27,6 @@
   image: fathersday.jpg
   link: behance.net/gallery/27322577/Fathers-day-typography
   bg-color: 13414e
-
 - title: Nature's Prophet
   rank: 2
   role: Graphic
@@ -29,7 +34,6 @@
   image: naturesprophet.jpg
   link: behance.net/gallery/23766467/Nature-Prophet
   bg-color: 00bbb0
-
 - title: PHWash Resources
   rank: 3
   role: Web Dev
@@ -37,7 +41,6 @@
   image: phwash.jpg
   link: www.phwashresources.com
   bg-color: de4825
-
 - title: Foxconn Builders
   rank: 4
   role: WEB DEV
@@ -45,7 +48,6 @@
   image: foxconn.jpg
   link: www.foxconnbuilders.com
   bg-color: 478dc9
-
 - title: Fashion21 Cosmetics
   rank: 5
   role: Web Dev
@@ -53,7 +55,6 @@
   image: fashion21.jpg
   link: www.fashion21cosmetics.com
   bg-color: 13414e
-
 - title: FS Cosmetics
   rank: 6
   role: Web Dev
@@ -61,7 +62,6 @@
   image: fscosmetics.jpg
   link: www.fscosmetics.com
   bg-color: e84874
-
 - title: Mystery Manila
   rank: 7
   role: Web Dev
@@ -69,7 +69,6 @@
   image: mysterymanila.jpg
   link: www.mysterymanila.com
   bg-color: 13414e
-
 - title: Josan & Bryan
   rank: 8
   role: Web Dev / Web Design
@@ -77,7 +76,6 @@
   image: wedding-website.jpg
   link: josanandbryanwedding.github.io
   bg-color: 00bbb0
-
 - title: Threelogy Video
   rank: 9
   role: Web Dev
@@ -85,7 +83,6 @@
   image: threelogy.jpg
   link: www.threelogyvideo.com
   bg-color: ba2e31
-
 - title: Hugbig Photography Website
   rank: 10
   role: Web Dev / Web Design
@@ -93,7 +90,6 @@
   image: hugbig.jpg
   link: hugbigphotography.github.io
   bg-color: de4825
-
 - title: SNAP Website
   rank: 11
   role: Web Dev
@@ -101,7 +97,6 @@
   image: snap.jpg
   link: www.snaboitiz.com
   bg-color: 273744
-
 - title: SNAP RES Website
   rank: 12
   role: Web Dev
@@ -109,7 +104,6 @@
   image: snap-res.jpg
   link: www.snap-res.com
   bg-color: de4825
-
 - title: AOTCA 2017
   rank: 13
   role: Web Dev / Web Design / Forms
@@ -117,7 +111,6 @@
   image: aotca2017.jpg
   link: www.aotca2017manila.com
   bg-color: e84874
-
 - title: Pocket Rocket Agency
   rank: 14
   role: Web Dev / Forms
@@ -125,7 +118,6 @@
   image: pocketrocket.jpg
   link: www.pocketrocketinc.com/
   bg-color: 00bbb0
-
 - title: MyPartyPix Photobooth
   rank: 15
   role: Web Dev / Web Design
