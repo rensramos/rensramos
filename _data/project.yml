@@ -1,4 +1,11 @@
 ---
+- title: FS Cosmetics
+  rank: 6
+  role: Web Dev
+  type: web-dev
+  image: fscosmetics.jpg
+  link: www.fscosmetics.com
+  bg-color: e84874
 - title: Ghost Gaming
   rank: 17
   role: Graphic
