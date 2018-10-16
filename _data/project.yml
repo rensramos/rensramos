@@ -1,4 +1,11 @@
 ---
+- title: Fashion21 Cosmetics
+  rank: 5
+  role: Web Dev
+  type: web-dev
+  image: fashion21.jpg
+  link: www.fashion21cosmetics.com
+  bg-color: 13414e
 - title: FS Cosmetics
   rank: 6
   role: Web Dev
