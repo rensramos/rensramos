@@ -3,8 +3,8 @@ email: rensramos17@gmail.com
 description: >
   A developer who is passionate in developing and designing awesome website.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://www.rensramos.com/"
 
 
 sass:
