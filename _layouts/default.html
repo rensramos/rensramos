@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    {% seo %}
-    <meta name="keywords" content="rens ramos, front end, web designer, web developer, web design, jekyll, User Interface, User Experience">
+    <title>{{ site.title }}</title>
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="{{ site.title }}"><meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
     <meta property="og:image" content="http://www.rensramos.com/image/brand-logo2.png">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta name="keywords" content="rens ramos, front end, web designer, web developer, web design, jekyll, User Interface, User Experience">
+    <link rel="canonical" href="{{ site.url }}">
+    <script type="application/ld+json">{"name":"Rens Ramos","description":"A developer who is passionate in developing and designing awesome website.","@type":"WebSite","url":"{{ site.url }}","headline":"Rens Ramos","@context":"http://schema.org"}</script>
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">

@@ -8,6 +8,7 @@ url: "https://www.rensramos.com/"
 
 plugins:
   - jekyll-seo-tag
+
 sass:
     style: compressed
 # Build settings
