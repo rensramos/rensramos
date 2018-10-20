@@ -1,4 +1,11 @@
 ---
+- title: Ghost Gaming
+  rank: 18
+  role: Graphic
+  type: graphic
+  image: ghost-logo.png
+  link: www.behance.net/gallery/68150123/Ghost-Gaming-logo
+  bg-color: 13414e
 - title: Fashion21 Cosmetics
   rank: 5
   role: Web Dev
