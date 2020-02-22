@@ -2,39 +2,59 @@
 - id: 1
   name: Kata
   position: Illustrator
-  company: Doesthatcomewithfries
+  company: Doesthatcomewithfries | Philippines
   testimonial: He's an efficient and reliable guy that will do everything in his power
     to find solutions to your problems.
+
 - id: 2
   name: Maria Chug
-  company: Threelogy Video
+  company: Threelogy Video | Philippines
   testimonial: 'He is hard working & I was surprised that he answered all my questions
     immediately even if I sent them out of office hours. I don’t care much about technology
     so he made it easy for me to understand how I should go about using the website
     he developed for our company. '
 - id: 3
   name: Chuck Chang
-  company: Mystery Manila
+  company: Mystery Manila | Philippines
   testimonial: Awesome design by Rens! Thumbs up for his prompt fixes of prod issues!
 - id: 4
   name: Nicole
-  position: UI/UX Designer
-  company: STORM Technologies
+  company: STORM Technologies | Philippines
   testimonial: A great front-end developer that works harmoniously with designers.
     He is very knowledgable with Jekyll and he makes websites almost pixel perfect
     to the design.
 - id: 5
   name: Alyssa Orcino
-  company: Pocket Rocket Advertising
+  company: Pocket Rocket Advertising | Philippines
   testimonial: We couldn’t be any happier with the way our revamped company website
     turned out thanks to Rens. He’s very reliable and hardworking, and was willing
     to help in every way he can with his valuable recommendations and service. An
     overall incredible and top-notch web developer.
 - id: 6
   name: Karen Daphne Madrigal
-  company: Fashion21 Cosmetics
+  company: Fashion21 Cosmetics | Philippines
   testimonial: Rens keen attention to detail is what makes his work spectacular in
     both design and function. Throughout the course of our project, he remained highly
     responsive and proactive resulting to a seamless website that clearly speaks our
     brand. I appreciate the effort and initiative Rens gave from start to finish and
     I would not hesitate to work with him again in the future.
+
+- id: 7
+  name: Brian Bauman
+  company: Upwork | United States
+  testimonial: Thanks for the work on the Jekyll templates.  Those turned out really well!
+
+- id: 8
+  name: Wes Edholm 
+  company: Upwork | United States
+  testimonial: They went great with Rens, he was a great communicator and did a great job of getting the website mostly set up. Looking forward to working with him again.
+
+- id: 9
+  name: David Greenwood
+  company: Upwork | United Kingdom
+  testimonial: Went above and beyond to implement a new Jekyll template. I will hire Rens again, without question for Jekyll related work.
+
+
+
+
+  
