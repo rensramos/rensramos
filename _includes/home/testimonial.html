@@ -1,7 +1,7 @@
 <div class="section-container container no-gutter">
     <div class="section-content">
         <div class="carousel-container">
-            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="12000">
                 <div class="carousel-inner">
                     {% for item in site.data.testimonial reversed %}
                     <div {% if forloop.first == true %} class="item active" {% else%} class="item" {% endif %}>
