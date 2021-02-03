@@ -36,11 +36,6 @@ $(window).on("load",function () {
             }
         }
     });
-
-    $("#testimonial-carousel").carousel({
-        interval: 20000
-    });
-
 });
 
 
