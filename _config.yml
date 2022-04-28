@@ -3,14 +3,23 @@ email: rensramos17@gmail.com
 description: >
   A developer who is passionate in developing and designing awesome website.
 
-baseurl: ""
-url: "https://www.rensramos.com/"
+baseurl: "/rensramos/"
+url: ""
 
 sass:
     style: compressed
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-gzip
+
+gzip:
+  replace_files: true
+  extensions:
+    - '.html'
+    - '.css'
+    - '.js'
 
 project-filter:
   - name: All
