@@ -5,3 +5,5 @@ _site
 .jekyll-cache
 .DS_store
 Gemfile.lock
+vendor/*
+.bundle/config
