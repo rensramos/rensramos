@@ -11,7 +11,7 @@
   role: Web Dev
   type: web-dev
   image: fleuroils.jpg
-  link: www.fleuroils.com/
+  link:
   bg-color: 478dc9
 - title: Father's Day
   rank: 1
@@ -102,19 +102,19 @@
   role: Web Dev / Web Design / Forms
   type: web-dev web-design
   image: aotca2017.jpg
-  link: www.aotca2017manila.com
+  link:
   bg-color: e84874
 - title: Pocket Rocket Agency
   rank: 14
   role: Web Dev / Forms
   type: web-dev
   image: pocketrocket.jpg
-  link: www.pocketrocketinc.com/
+  link: www.pocketrocketinc.com
   bg-color: 00bbb0
 - title: MyPartyPix Photobooth
   rank: 15
   role: Web Dev / Web Design
   type: web-dev web-design
   image: mypartypix.jpg
-  link: www.mypartypix.net
+  link:
   bg-color: 13414e
