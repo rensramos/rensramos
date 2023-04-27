@@ -1,7 +1,3 @@
-- name: What's New
-  url: whatsnew
-
-
 - name: Products
   url: products
 
