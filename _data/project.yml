@@ -39,14 +39,14 @@
   role: Web Dev
   type: web-dev
   image: phwash.jpg
-  link: www.phwashresources.com
+  link: 
   bg-color: de4825
 - title: Foxconn Builders
   rank: 4
   role: WEB DEV
   type: web-dev
   image: foxconn.jpg
-  link: www.foxconnbuilders.com
+  link: 
   bg-color: 478dc9
 - title: Fashion21 Cosmetics
   rank: 5
@@ -74,21 +74,21 @@
   role: Web Dev / Web Design
   type: web-dev web-design
   image: wedding-website.jpg
-  link: josanandbryanwedding.github.io
+  link: 
   bg-color: 00bbb0
 - title: Threelogy Video
   rank: 9
   role: Web Dev
   type: web-dev
   image: threelogy.jpg
-  link: https://threelogy.github.io/
+  link: 
   bg-color: ba2e31
 - title: Hugbig Photography Website
   rank: 10
   role: Web Dev / Web Design
   type: web-dev web-design
   image: hugbig.jpg
-  link: hugbigphotography.github.io
+  link: 
   bg-color: de4825
 - title: SNAP Website
   rank: 11
